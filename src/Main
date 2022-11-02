@@ -1,0 +1,73 @@
+1. cd ../.. | cd bin | ls -l
+
+1,5. cd ../.. | cd tmp | ls -l
+
+2. cd ../.. | cd etc | ls -l -r        
+
+3. cd ../.. | cd dev | sort tty??
+
+4. cd ../.. | cd dev | sort tty [1-4]
+
+5. cd ../.. | cd dev | sort port*C1
+
+6. ls -l -a
+
+7. cd ../.. | cd etc | ls -l -f (!t)
+
+8. cd ../.. | cd usr | tree
+
+9. cd ../.. | cd tmp | mkdir PRUEBA
+
+10. ls -l
+
+11. date
+
+12. cd ~ $Home
+
+13. pwd
+
+14. cd ~ Home | ls -l -i
+
+15. cd ~ Prueba | rm - r /*
+
+16. cd ~ Prueba | mkdir dir1 | mkdir dir2 | mkdir dir3 | cd dir1 | mkdir dir11 | cd .. | cd dir3 | mkdir dir31 | cd dir31/ | mkdir dir311 | mkdir dir312
+
+17. cd etc/ | cp motd /mensaje
+
+18. cp /prueba/dir1 | cp mensaje/prueba/dir2 | cp mensaje/prueba/dir3|
+
+18,5. tree
+
+19. cd etc/ | cp rc.d/ prueba/dir3/dir31
+
+20. cd bin/ | sort ?a?? | cp prueba/dir3/dir31/dir311
+
+21. ns/nc
+
+22. cd prueba/dir3/ | mv dir31 prueba/dir2/
+
+23. ls -r
+
+24. cd prueba/dir | mv prueba prueba/dir3/.prueba
+
+25. cd prueba | rm -r dir1
+
+26. cd dev/ | sort t*[a-b] | cp * prueba/dir3/dir31/dir321
+
+27. cd prueba/dir3/dir31/dir321 | sort ???q*[!b][!y] | rm *
+
+28. cd prueba/dir3/dir31 | mv -r dir321 prueba/dir3
+
+29. ln -s /home/ubuntu/PRUEBA/dir1 PRUEBA/dir3/enlacedir1
+
+30. cd dir3 mkdir enlacedir1/nuevo1
+
+31. cp -r /bin/u* enlacedir1/nuevo1/
+
+32. ln fich1 dir1/enlace ln fich1 dir2/enlace
+
+33. rm fich1 cp dir1/enlace dir3/
+
+34. cd prueba/dir3 | ln -s /home/ubuntu/PRUEBA/dir2 /home/ubuntu/PRUEBA/dir1/enlafich1
+
+35. cd dir1 cp enlafich1 ../dir2/dir31/dir311/fich1
